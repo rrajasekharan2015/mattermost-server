@@ -17,7 +17,7 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"github.com/mattermost/mattermost-server/mlog"
 	"github.com/mattermost/mattermost-server/utils/fileutils"
-	"github.com/nicksnyder/go-i18n/i18n"
+	"github.com/mattermost/go-i18n/i18n"
 )
 
 type HTMLTemplateWatcher struct {

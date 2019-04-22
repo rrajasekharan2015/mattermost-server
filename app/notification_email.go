@@ -14,7 +14,7 @@ import (
 	"github.com/mattermost/mattermost-server/mlog"
 	"github.com/mattermost/mattermost-server/model"
 	"github.com/mattermost/mattermost-server/utils"
-	"github.com/nicksnyder/go-i18n/i18n"
+	"github.com/mattermost/go-i18n/i18n"
 )
 
 func (a *App) sendNotificationEmail(notification *postNotification, user *model.User, team *model.Team) *model.AppError {
